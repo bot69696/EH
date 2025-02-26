@@ -1,0 +1,38 @@
+RACTICAL NO:1
+AIM: Google and Whois Reconnaissance.
+Commands:
+1.site:wikipedia.org- This operator restricts the search to a specific site.
+2.intitle:pizza- This operator requires that the specified word or phrase is included in the page's title.
+3.site:wikipedia.org inurl:pdf- This operator requires that the specified word or phrase is included in the page's URL.
+4.filetype:ppt python- This operator restricts the search to specific file types. For example, 'filetype:pdf will only return PDF files.
+5.Intext:AI- This operator requires that the specified word or phrase is included in the body of the page.
+6.cache:youtube.com- This operator shows the version of the page that Google has in its cache.
+7.related:python.com- This operator returns sites that are similar to the specified site.
+8.info:git.com- This operator provides information about the specified site.
+9.define:function- This operator provides definitions for the specified word or phrase.
+10.intitle:pizza- Searches for pages that contain a specific word in the title tag.
+11.allintitle:pizza recipe- Works like "intitle" but will only show pages where the title tag includes all of the specified words.
+12.related:nytimes.com- Allows you to find sites related to a particular domain.
+13.OR : Try it out: pizza OR pasta
+14.AND: Finds results related to both the searched terms. Try it out: pizza AND pasta
+15. – The minus (-) operator excludes a particular term or phrase and shows pages that don’t include the excluded term (or terms). Try it out: digital marketing-jobs
+16.() The parentheses "()" groups multiple terms or search operators to influence the final search. Try it out: Tesla (Model S OR Model Y)
+17.* Acts as a wild card and fills in the missing word or phrase. Try it out: best * in Paris
+18.define: See the definition for a specific word or concept. Try it out: define:algorithm
+19.Filetype: Find results of a particular file format (e.g., PDF, XLS, PPT, DOCX, etc.) Try it out: filetype:pdf climate change
+20.ext: Alternatively, you can use the "ext:" operator in place of "filetype:" It does the same thing. Try it out: ext:pdf climate change
+21.cache: Allows you to view the most recent cached version of a webpage. Try it out: cache:wikipedia.com
+22.Site: Finds results only from a specific website. Try it out: site:nytimes.com
+23.inurl: Finds pages that include a specific word in the URL. Try it out: inurl:shampoo
+24.allinurl: Works like "inurl" but will only return pages where the URL includes all of the specified terms. Try it out: allinurl:best baby shampoos
+25.weather: Allows you to quickly see weather conditions for a particular location. Try it out: weather:mumbai
+26.stocks: Allows you to quickly see stock prices and other financial information of a particular company. Try it out: stocks:adani
+27.map: Shows a map of a specific location. Try it out: map:mumbai
+28. movie: Shows information about a specific movie. Try it out: movie:hera pheri
+29. allintext: Works like “intext” but will only show pages where page content contains all of the specified words. Try it out: allintext:SEO tips
+30. source: Finds news articles from a specific source in Google News. Try it out: tesla source:nytimes.com
+31. in: Try it out: 100 usd in inr
+32.“search term”: Using quotation marks around a search query allows you to search for an exact phrase rather than individual words. Try it out: “best vadapav in mumbai”
+33. AROUND(X): Searches for pages where two words appear within the distance of “X” words from each other. Try it out: Tesla AROUND(5) Model S
+34. location: Narrow your results to a specific location. Try it out: location:seattle pizza
+35. WhoIs Lookup- domain lookup
