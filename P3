@@ -1,0 +1,7 @@
+tracert youtube.com
+ping 192.168.43.1
+ping 192.168.148.1
+ping 108.170.248.161
+ipconfig
+netstat
+arp or arp -a
